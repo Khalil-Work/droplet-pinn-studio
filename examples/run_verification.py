@@ -14,15 +14,9 @@ exact with the iteration count visible), CSVs, run_summary.json.
 from __future__ import annotations
 
 import json
-import os
 import pathlib
 import platform
 import sys
-
-# Windows (EngineeringPython) loads two OpenMP runtimes when NumPy/MKL and
-# torch are imported together; allow it for this plotting-only process.
-if sys.platform == "win32":
-    os.environ.setdefault("KMP_DUPLICATE_LIB_OK", "TRUE")
 
 import matplotlib
 
