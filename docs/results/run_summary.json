@@ -1,0 +1,35 @@
+{
+  "runtime": {
+    "python": "3.13.5",
+    "torch": "2.14.1+cpu",
+    "numpy": "2.1.3",
+    "system": "Windows-11-10.0.26200-SP0"
+  },
+  "budget": {
+    "steps": 2000,
+    "collocation": 40,
+    "lr": 0.005,
+    "tau_max": 0.8,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "note": "identical architecture/optimizer/schedule for both formulations"
+  },
+  "hard_held_out_max_abs": [
+    7.724761962890625e-05,
+    8.13603401184082e-05,
+    0.00022912025451660156
+  ],
+  "soft_held_out_max_abs": [
+    0.0007476508617401123,
+    5.9157609939575195e-05,
+    0.0013472437858581543
+  ],
+  "animation": {
+    "file": "training_evolution.gif",
+    "frames": 40
+  },
+  "scope_note": "illustrative droplet submodel with an exact solution; no atomization/spray-CFD/experimental claims"
+}
