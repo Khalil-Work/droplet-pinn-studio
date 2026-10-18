@@ -107,3 +107,5 @@ conventions. Evidence and limits: [docs/verification.md](docs/verification.md).
 Dependencies: PyTorch (BSD-style), NumPy (BSD-3), Matplotlib (PSF-based),
 Pillow (HPND), pytest (MIT). This repository's own code is original and
 MIT-licensed; see [LICENSE](LICENSE).
+
+History metadata: [documented calendar records](docs/CALENDAR_HISTORY.md).
