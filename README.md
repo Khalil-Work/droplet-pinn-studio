@@ -11,13 +11,13 @@
 identical budgets, three deterministic seeds, held-out absolute errors, and a
 training animation built from recorded optimizer snapshots.**
 
-[![tests](https://github.com/khalil-official/droplet-pinn-studio/actions/workflows/ci.yml/badge.svg)](https://github.com/khalil-official/droplet-pinn-studio/actions/workflows/ci.yml)
+[![tests](https://github.com/khalil-work/droplet-pinn-studio/actions/workflows/ci.yml/badge.svg)](https://github.com/khalil-work/droplet-pinn-studio/actions/workflows/ci.yml)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![python](https://img.shields.io/badge/python-3.12%20%7C%203.13-blue.svg)](requirements.txt)
 [![tests](https://img.shields.io/badge/tests-6%20passing-brightgreen.svg)](tests)
 [![torch](https://img.shields.io/badge/PyTorch-CPU-red.svg)](requirements-dev.txt)
-[![repo stars](https://img.shields.io/github/stars/khalil-official/droplet-pinn-studio?style=flat&color=yellow)](https://github.com/khalil-official/droplet-pinn-studio/stargazers)
-[![last commit](https://img.shields.io/github/last-commit/khalil-official/droplet-pinn-studio?color=9cf)](https://github.com/khalil-official/droplet-pinn-studio/commits)
+[![repo stars](https://img.shields.io/github/stars/khalil-work/droplet-pinn-studio?style=flat&color=yellow)](https://github.com/khalil-work/droplet-pinn-studio/stargazers)
+[![last commit](https://img.shields.io/github/last-commit/khalil-work/droplet-pinn-studio?color=9cf)](https://github.com/khalil-work/droplet-pinn-studio/commits)
 
 [Quick start](#-quick-start) · [Study design](#-problem-formulations-measurement) · [Animation](#%EF%B8%8F-results-gallery) · [Verification](#%EF%B8%8F-verification) · [References](#-references)
 
