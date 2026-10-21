@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/banner.svg" alt="Droplet PINN Studio banner: neural network learning the exact d2-law curve z = 1 - tau" width="100%">
+<img src="docs/banner.png" alt="Droplet PINN Studio banner: neural network learning the exact d2-law curve z = 1 - tau" width="100%">
 
 # 🎓 Droplet PINN Studio
 
@@ -57,12 +57,12 @@ the loss? Equal budgets, controlled seeds, absolute held-out metrics.
 
 ```mermaid
 flowchart TD
-    A[d² law normalized: z' = −1, z(0)=1] --> B1[Hard-IC: z = 1 + τ·N(τ)]
+    A["d² law normalized: z' = −1, z(0)=1"] --> B1[Hard-IC: z = 1 + τ·N(τ)]
     A --> B2[Soft-IC: z = N(τ) + penalty]
     B1 --> C[Identical budget: arch, init, collocation, Adam 2000, CPU]
     B2 --> C
     C --> D[Seeds 0 / 1 / 2, deterministic]
-    D --> E[Held-out absolute errors on τ ∈ [0, 0.8]]
+    D --> E["Held-out absolute errors on τ ∈ [0, 0.8]"]
     E --> F1[📊 per-seed CSV + comparison figure]
     E --> F2[🎞️ training animation from recorded snapshots]
 ```
