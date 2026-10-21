@@ -57,8 +57,8 @@ the loss? Equal budgets, controlled seeds, absolute held-out metrics.
 
 ```mermaid
 flowchart TD
-    A["d² law normalized: z' = −1, z(0)=1"] --> B1[Hard-IC: z = 1 + τ·N(τ)]
-    A --> B2[Soft-IC: z = N(τ) + penalty]
+    A["d² law normalized: z' = −1, z(0)=1"] --> B1["Hard-IC: z = 1 + τ·N(τ)"]
+    A --> B2["Soft-IC: z = N(τ) + penalty"]
     B1 --> C[Identical budget: arch, init, collocation, Adam 2000, CPU]
     B2 --> C
     C --> D[Seeds 0 / 1 / 2, deterministic]
