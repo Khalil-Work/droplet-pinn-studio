@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/banner.svg" alt="Droplet PINN Studio banner: neural network learning the exact d2-law curve z = 1 - tau" width="100%">
+<img src="docs/banner.png" alt="Droplet PINN Studio banner: neural network learning the exact d2-law curve z = 1 - tau" width="100%">
 
 # 🎓 Droplet PINN Studio
 
