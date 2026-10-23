@@ -19,7 +19,7 @@ training animation built from recorded optimizer snapshots.**
 [![repo stars](https://img.shields.io/github/stars/khalil-work/droplet-pinn-studio?style=flat&color=yellow)](https://github.com/khalil-work/droplet-pinn-studio/stargazers)
 [![last commit](https://img.shields.io/github/last-commit/khalil-work/droplet-pinn-studio?color=9cf)](https://github.com/khalil-work/droplet-pinn-studio/commits)
 
-[Quick start](#-quick-start) · [Study design](#-problem-formulations-measurement) · [Animation](#%EF%B8%8F-results-gallery) · [Verification](#%EF%B8%8F-verification) · [References](#-references)
+[Homepage](https://khalil-work.github.io) · [Quick start](#-quick-start) · [Study design](#-problem-formulations-measurement) · [Animation](#%EF%B8%8F-results-gallery) · [Verification](#%EF%B8%8F-verification) · [References](#-references)
 
 </div>
 
